@@ -13,7 +13,7 @@ ADD . /tmp/s3dump
 
 RUN set -ex; \
     cd /tmp/s3dump \
-    && python3 setup.py install
+    && python setup.py install
 
 RUN set -ex; \
     rm -rf /tmp/*

@@ -6,16 +6,17 @@ import os
 import xmltodict
 import shutil
 import humanfriendly
-from queue import Queue
-from urllib.parse import urlparse
+from threading import Lock, Thread
 
 from s3dump import context
 from s3dump.release import __version__
 from s3dump.cli import CLI
 from s3dump.errors import S3DumpOptionsError
-from s3dump.modules.thread import Thread, Lock
 from s3dump.modules.http import HTTP
 from s3dump.utils.display import Display
+
+from s3dump.utils.six.moves.queue import Queue
+import s3dump.utils.six.moves.urllib.parse as urlparse
 
 
 display = Display()

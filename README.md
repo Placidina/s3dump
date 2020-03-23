@@ -1,6 +1,18 @@
 # S3Dump
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Placidina/s3dump/blob/master/LICENSE)
+
 S3Dump is a security tool for enumerate and download files from AWS S3 buckets.
+
+The S3Dump works on Python versions:
+
+- 2.6.x and greater
+- 2.7.x and greater
+- 3.4.x and greater
+- 3.5.x and greater
+- 3.6.x and greater
+- 3.7.x and greater
+- 3.8.x and greater
 
 ## General
 
