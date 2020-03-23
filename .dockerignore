@@ -1,0 +1,11 @@
+**/__pycache__
+**/*.egg-info
+**/*.pyc
+build/
+dist/
+.vscode/
+.git/
+.gitignore
+.pylintrc
+.env
+Dockerfile
